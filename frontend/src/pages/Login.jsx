@@ -8,8 +8,8 @@ const Login = () => {
   return (
     <>
 
-      <div className="flex items-center justify-center min-h-screen bg-gray-200">
-        <div className="bg-cyan-800 p-8 rounded-xl shadow-md w-130 flex flex-col gap-6">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-cyan-500 to-pink-300">
+        <div className="bg-cyan-800 p-8 rounded-xl shadow-md w-110 flex flex-col gap-6">
           
           <h1 className="text-2xl font-bold text-center text-white mb-10">{signState.toUpperCase()}</h1>
 
